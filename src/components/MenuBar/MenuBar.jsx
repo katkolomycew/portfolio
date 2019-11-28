@@ -5,11 +5,16 @@ class MenuBar extends Component {
   render() {
     return (
       <section className={styles.barBackground}>
-        <p>Logo</p>
+        <p className={styles.barLogo}>KK</p>
         <p>Home</p>
         <p>Work</p>
         <p>Blog</p>
         <p>Contact</p>
+        <article className={styles.barSocial}>
+          <p>F</p>
+          <p>L</p>
+          <p>G</p>
+        </article>
       </section>
     );
   }
