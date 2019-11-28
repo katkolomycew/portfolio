@@ -1,13 +1,14 @@
 import React, { Component } from "react";
+import { Router, Redirect } from "@reach/router";
 import Homepage from "../Homepage/Homepage";
-import Work from "../Work/Work";
 import Blog from "../Blog/Blog";
-import { Router } from "@reach/router";
+import Work from "../Work/Work";
 
-class App extends Component {
+class Routes extends Component {
   render() {
     return (
       <Router>
+        <Redirect noThrow from="/" to="/" />
         <Homepage path="/" />
         <Work path="/work" />
         <Blog path="/blog" />
@@ -15,5 +16,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
