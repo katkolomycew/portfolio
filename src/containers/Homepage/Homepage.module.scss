@@ -8,6 +8,24 @@
   z-index: 0;
 }
 
+.homepageHeading {
+  font-family: "Cutive Mono", monospace;
+  color: rgb(188, 112, 115);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
 .homepageText {
   line-height: 1.75rem;
+
+  a {
+    color: rgb(188, 112, 115);
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bold;
+    transition: 0.2s;
+  }
 }
