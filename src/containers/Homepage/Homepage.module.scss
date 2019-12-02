@@ -1,4 +1,4 @@
-.test {
+.homepageBackground {
   padding: 1rem 2rem 1rem 2rem;
   height: 100%;
   width: 48%;
@@ -6,4 +6,8 @@
   position: absolute;
   text-align: justify;
   z-index: 0;
+}
+
+.homepageText {
+  line-height: 1.75rem;
 }

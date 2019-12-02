@@ -13,13 +13,13 @@ class MenuBar extends Component {
     return (
       <section className={styles.barBackground}>
         <p className={styles.barLogo}>KK</p>
-        <FontAwesomeIcon icon={faHome} class="fas fa-home" />
-        <FontAwesomeIcon icon={faBriefcase} class="fas fa-briefcase" />
-        <FontAwesomeIcon icon={faEdit} class="fas fa-edit" />
-        <FontAwesomeIcon icon={faPaperPlane} class="fas fa-paper-plane" />
+        <FontAwesomeIcon icon={faHome} className={styles.homeIcon} />
+        <FontAwesomeIcon icon={faBriefcase} className={styles.workIcon} />
+        <FontAwesomeIcon icon={faEdit} className={styles.blogIcon} />
+        <FontAwesomeIcon icon={faPaperPlane} className={styles.contactIcon} />
         <article className={styles.barSocial}>
-          <FontAwesomeIcon icon={faLinkedin} class="fab fa-linkedin" />
-          <FontAwesomeIcon icon={faGithub} class="fab fa-github" />
+          <FontAwesomeIcon icon={faLinkedin} className={styles.linkedinIcon} />
+          <FontAwesomeIcon icon={faGithub} className={styles.githubIcon} />
         </article>
       </section>
     );

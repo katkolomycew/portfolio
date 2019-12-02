@@ -6,16 +6,32 @@ import styles from "./Homepage.module.scss";
 class Homepage extends Component {
   render() {
     return (
-      <>
-        <p className={styles.test}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero labore
-          expedita aliquid, ex voluptate dolores vero maxime. Inventore a
-          recusandae quasi repellat quam eaque alias. Ipsam tenetur explicabo
-          vero possimus!
-        </p>
+      <section>
+        <div className={styles.homepageBackground}>
+          <p className={styles.homepageHeading}>alert("Hello world!")</p>
+          <article className={styles.homepageText}>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            consequuntur doloribus omnis itaque consectetur, repellat
+            voluptatibus officia! Molestias optio nisi aperiam ad, minus
+            mollitia amet libero inventore? Soluta, distinctio possimus.
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+              reprehenderit doloribus labore facere harum alias quo sit delectus
+              dolor ipsam debitis repellendus eum non, dolores perferendis
+              aspernatur odio cum beatae?
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              quos illum reprehenderit voluptatibus nisi perferendis veritatis
+              neque nostrum eaque, labore possimus id est autem ducimus facere
+              molestias reiciendis sed quae.
+            </p>
+            <span>(hashtag icons)</span>
+          </article>
+        </div>
         <HeaderImage />
         <MenuBar />
-      </>
+      </section>
     );
   }
 }
