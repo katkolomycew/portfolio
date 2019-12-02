@@ -3,4 +3,14 @@ img {
   right: 52%;
   position: fixed;
   z-index: 2;
+  -webkit-animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
