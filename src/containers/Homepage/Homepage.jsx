@@ -35,7 +35,26 @@ class Homepage extends Component {
               </a>
               .
             </p>
-            <span className={styles.homepageSkills}>(hashtag icons)</span>
+            <ul>
+              <li>HTML</li>
+              <li>CSS/SCSS</li>
+              <li>JavaScript</li>
+              <li>Unit Testing</li>
+              <li>Responsive Design</li>
+              <li>React</li>
+              <li>Firebase</li>
+              <li>Google Cloud Platform</li>
+              <li>SCRUM</li>
+              <li>iOS</li>
+              <li>Adobe Photoshop</li>
+              <li>Agile</li>
+              <li>Auth</li>
+              <li>GitHub</li>
+              <li>REST</li>
+              <li>Microsoft Office</li>
+              <li>NoSQL</li>
+              <li>Windows</li>
+            </ul>
           </article>
         </div>
         <HeaderImage />
