@@ -14,14 +14,31 @@ class MenuBar extends Component {
     return (
       <section className={styles.barBackground}>
         <p className={styles.barLogo}>KK</p>
-        <FontAwesomeIcon icon={faHome} className={styles.homeIcon} />
-        <FontAwesomeIcon icon={faBriefcase} className={styles.workIcon} />
-        <FontAwesomeIcon icon={faEdit} className={styles.blogIcon} />
-        <FontAwesomeIcon icon={faFile} className={styles.cvIcon} />
-        <FontAwesomeIcon icon={faPaperPlane} className={styles.contactIcon} />
+        <a href="/">
+          <FontAwesomeIcon icon={faHome} className={styles.homeIcon} />
+        </a>
+        <a href="/work">
+          <FontAwesomeIcon icon={faBriefcase} className={styles.workIcon} />
+        </a>
+        <a href="/blog">
+          <FontAwesomeIcon icon={faEdit} className={styles.blogIcon} />
+        </a>
+        <a href="/cv">
+          <FontAwesomeIcon icon={faFile} className={styles.cvIcon} />
+        </a>
+        <a href="/contact">
+          <FontAwesomeIcon icon={faPaperPlane} className={styles.contactIcon} />
+        </a>
         <article className={styles.barSocial}>
-          <FontAwesomeIcon icon={faLinkedin} className={styles.linkedinIcon} />
-          <FontAwesomeIcon icon={faGithub} className={styles.githubIcon} />
+          <a href="https://www.linkedin.com/in/kat-kolomycew/" target="_blank">
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className={styles.linkedinIcon}
+            />
+          </a>
+          <a href="https://github.com/katkolomycew" target="_blank">
+            <FontAwesomeIcon icon={faGithub} className={styles.githubIcon} />
+          </a>
         </article>
       </section>
     );

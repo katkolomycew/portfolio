@@ -13,7 +13,17 @@
   .cvIcon,
   .contactIcon {
     font-size: 1.5rem;
+    transition: 0.4s;
     margin: 0.5rem;
+  }
+
+  .homeIcon:hover,
+  .workIcon:hover,
+  .blogIcon:hover,
+  .cvIcon:hover,
+  .contactIcon:hover {
+    color: rgb(247, 201, 219);
+    cursor: pointer;
   }
 }
 
@@ -37,4 +47,15 @@
   .githubIcon {
     margin: 0.25rem;
   }
+
+  .linkedinIcon:hover,
+  .githubIcon:hover {
+    color: rgb(247, 201, 219);
+    transition: 0.4s;
+    cursor: pointer;
+  }
+}
+
+a {
+  color: inherit;
 }
