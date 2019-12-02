@@ -1,12 +1,17 @@
 import React, { Component } from "react";
-import "./Work.module.scss";
+import macbook from "./images/macbook.png";
+import HeaderImage from "../../components/HeaderImage/HeaderImage";
+import MenuBar from "../../components/MenuBar/MenuBar";
+import styles from "./Work.module.scss";
 
 class Work extends Component {
   render() {
     return (
-      <>
-        <p className="test"></p>
-      </>
+      <section>
+        <img src={macbook} alt="macbook" className={styles.workBackground} />
+        <HeaderImage />
+        <MenuBar />
+      </section>
     );
   }
 }

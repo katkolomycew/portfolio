@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import HeaderImage from "../../components/HeaderImage/HeaderImage";
 import MenuBar from "../../components/MenuBar/MenuBar";
-import "./Blog.module.scss";
+import "./CV.module.scss";
 
-class Blog extends Component {
+class CV extends Component {
   render() {
     return (
       <section>
@@ -15,4 +15,4 @@ class Blog extends Component {
   }
 }
 
-export default Blog;
+export default CV;
