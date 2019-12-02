@@ -30,13 +30,21 @@ class MenuBar extends Component {
           <FontAwesomeIcon icon={faPaperPlane} className={styles.contactIcon} />
         </a>
         <article className={styles.barSocial}>
-          <a href="https://www.linkedin.com/in/kat-kolomycew/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/kat-kolomycew/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faLinkedin}
               className={styles.linkedinIcon}
             />
           </a>
-          <a href="https://github.com/katkolomycew" target="_blank">
+          <a
+            href="https://github.com/katkolomycew"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} className={styles.githubIcon} />
           </a>
         </article>

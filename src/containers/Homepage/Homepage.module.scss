@@ -20,27 +20,33 @@
   border-right: 2px solid rgb(13, 11, 12);
   animation: typeWriter 2s steps(40) 1s 1 normal both,
     blinkCursor 1s steps(40) infinite normal;
-}
 
-@keyframes typeWriter {
-  from {
-    width: 0;
+  @keyframes typeWriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 14em;
+    }
   }
-  to {
-    width: 14em;
-  }
-}
-@keyframes blinkCursor {
-  from {
-    border-right-color: rgb(13, 11, 12);
-  }
-  to {
-    border-right-color: transparent;
+
+  @keyframes blinkCursor {
+    from {
+      border-right-color: rgb(13, 11, 12);
+    }
+    to {
+      border-right-color: transparent;
+    }
   }
 }
 
 .homepageText {
   line-height: 1.75rem;
+  padding-top: 2rem;
+
+  p {
+    padding-top: 1rem;
+  }
 
   a {
     color: rgb(188, 112, 115);
