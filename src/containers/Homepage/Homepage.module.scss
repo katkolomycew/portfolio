@@ -14,6 +14,29 @@
   font-weight: bold;
   font-size: 1.5rem;
   padding: 1rem;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid rgb(13, 11, 12);
+  animation: typeWriter 2s steps(40) 1s 1 normal both,
+    blinkCursor 1s steps(40) infinite normal;
+}
+
+@keyframes typeWriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 14em;
+  }
+}
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgb(13, 11, 12);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 .homepageText {
