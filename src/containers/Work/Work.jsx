@@ -8,10 +8,10 @@ import styles from "./Work.module.scss";
 class Work extends Component {
   render() {
     return (
-      <section className={styles.workWrapper}>
+      <section>
         <HeaderImage />
         <MenuBar />
-        <article className={styles.workIncollab}>
+        <div className={styles.workBackground}>
           <img src={macbook} alt="macbook" className={styles.workMacbook} />
           <img src={iphone} alt="iphone" className={styles.workIphone} />
           <h1 className={styles.incollabTitle}>In Collaboration</h1>
@@ -29,18 +29,16 @@ class Work extends Component {
             <li>JSX</li>
             <li>Firebase</li>
             <li>SCRUM</li>
-            <li>iOS</li>
             <li>Agile</li>
-            <li>Authorisation</li>
-            <li>Authentication</li>
             <li>NoSQL</li>
             <li>GitHub</li>
-            <li>Windows</li>
+            <li>Authentication</li>
+            <li>Authorisation</li>
             <li>Hosting</li>
             <li>React</li>
           </ul>
           <p className={styles.workBreak}>......</p>
-        </article>
+        </div>
       </section>
     );
   }
