@@ -104,7 +104,6 @@ class Work extends Component {
             <li>GitHub</li>
             <li>JavaScript</li>
           </ul>
-          <p className={styles.workBreak}>......</p>
         </div>
       </section>
     );
