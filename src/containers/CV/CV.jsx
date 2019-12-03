@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HeaderImage from "../../components/HeaderImage/HeaderImage";
 import MenuBar from "../../components/MenuBar/MenuBar";
-import "./CV.module.scss";
+import styles from "./CV.module.scss";
 
 class CV extends Component {
   render() {
