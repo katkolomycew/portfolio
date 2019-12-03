@@ -9,22 +9,7 @@
   z-index: 0;
 }
 
-.incollabMacbook {
-  height: 400px;
-  bottom: 42%;
-  right: 22%;
-  position: absolute;
-}
-
-.incollabIphone {
-  height: 225px;
-  bottom: 57%;
-  right: 5%;
-  position: absolute;
-  z-index: -1;
-}
-
-.incollabTitle {
+.workTitle {
   font-family: "Cutive Mono", monospace;
   color: rgb(188, 112, 115);
   font-weight: bold;
@@ -33,13 +18,13 @@
   text-align: center;
 }
 
-.incollabText {
+.workText {
   line-height: 1.75rem;
   font-size: 1.05rem;
   margin: 1.05rem;
 }
 
-.incollabSkills {
+.workSkills {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -63,11 +48,28 @@
   font-size: 2.5rem;
 }
 
+.incollabMacbook {
+  height: 400px;
+  bottom: 42%;
+  right: 22%;
+  position: absolute;
+  z-index: -1;
+}
+
+.incollabIphone {
+  height: 225px;
+  bottom: 57%;
+  right: 5%;
+  position: absolute;
+  z-index: -2;
+}
+
 .tugMacbook {
   height: 400px;
   top: 87%;
   right: 22%;
   position: absolute;
+  z-index: -1;
 }
 
 .tugIphone {
@@ -75,5 +77,37 @@
   top: 38.5rem;
   right: 5%;
   position: absolute;
+  z-index: -2;
+}
+
+.mealMacbook {
+  height: 400px;
+  top: 64.5rem;
+  right: 22%;
+  position: absolute;
   z-index: -1;
+}
+
+.mealIphone {
+  height: 225px;
+  top: 69.75rem;
+  right: 5%;
+  position: absolute;
+  z-index: -2;
+}
+
+.mineMacbook {
+  height: 400px;
+  top: 96rem;
+  right: 22%;
+  position: absolute;
+  z-index: -1;
+}
+
+.mineIphone {
+  height: 225px;
+  top: 101rem;
+  right: 5%;
+  position: absolute;
+  z-index: -2;
 }
