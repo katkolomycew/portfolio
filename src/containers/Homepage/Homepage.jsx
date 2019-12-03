@@ -7,6 +7,8 @@ class Homepage extends Component {
   render() {
     return (
       <section>
+        <HeaderImage />
+        <MenuBar />
         <div className={styles.homepageBackground}>
           <p className={styles.homepageHeading}>alert("Hello world!")</p>
           <article className={styles.homepageText}>
@@ -100,8 +102,6 @@ class Homepage extends Component {
             </ul>
           </article>
         </div>
-        <HeaderImage />
-        <MenuBar />
       </section>
     );
   }
