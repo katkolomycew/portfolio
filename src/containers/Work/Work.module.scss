@@ -1,6 +1,6 @@
 .workBackground {
   overflow: auto;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 2rem 1rem 3rem;
   height: 100%;
   width: 48%;
   right: 5%;
@@ -9,14 +9,14 @@
   z-index: 0;
 }
 
-.workMacbook {
+.incollabMacbook {
   height: 400px;
   bottom: 42%;
   right: 22%;
   position: absolute;
 }
 
-.workIphone {
+.incollabIphone {
   height: 225px;
   bottom: 57%;
   right: 5%;
@@ -61,4 +61,19 @@
   font-weight: bold;
   text-align: center;
   font-size: 2.5rem;
+}
+
+.tugMacbook {
+  height: 400px;
+  top: 87%;
+  right: 22%;
+  position: absolute;
+}
+
+.tugIphone {
+  height: 225px;
+  top: 38.5rem;
+  right: 5%;
+  position: absolute;
+  z-index: -1;
 }

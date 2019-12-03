@@ -88,17 +88,17 @@ class Homepage extends Component {
               <li>Arcades</li>
               <li>Psychology</li>
               <li>DIY models</li>
-              <li>80s Music</li>
-              <li>Classic cinema</li>
-              <li>Baking (awesome brownie recipe)</li>
               <li>Travel</li>
+              <li>Emotional intelligence</li>
+              <li>Baking (awesome brownie recipe)</li>
+              <li>80s Music</li>
               <li>Long hikes</li>
               <li>Horseriding</li>
-              <li>Mindfulness</li>
-              <li>Emotional intelligence</li>
-              <li>Artificial intelligence</li>
               <li>History</li>
-              <li>Sudoku/jigsaw puzzles/crosswords</li>
+              <li>Mindfulness</li>
+              <li>Classic cinema</li>
+              <li>Artificial intelligence</li>
+              <li>Puzzles/crosswords</li>
             </ul>
           </article>
         </div>

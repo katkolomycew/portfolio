@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import macbook from "./images/macbook.png";
-import iphone from "./images/iphone.png";
+import incollabMacbook from "./images/incollabMacbook.png";
+import incollabIphone from "./images/incollabIphone.png";
+import tugMacbook from "./images/tugMacbook.png";
+import tugIphone from "./images/tugIphone.png";
 import HeaderImage from "../../components/HeaderImage/HeaderImage";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import styles from "./Work.module.scss";
@@ -12,8 +14,16 @@ class Work extends Component {
         <HeaderImage />
         <MenuBar />
         <div className={styles.workBackground}>
-          <img src={macbook} alt="macbook" className={styles.workMacbook} />
-          <img src={iphone} alt="iphone" className={styles.workIphone} />
+          <img
+            src={incollabMacbook}
+            alt="macbook"
+            className={styles.incollabMacbook}
+          />
+          <img
+            src={incollabIphone}
+            alt="iphone"
+            className={styles.incollabIphone}
+          />
           <h1 className={styles.incollabTitle}>In Collaboration</h1>
           <p className={styles.incollabText}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ad at
@@ -26,7 +36,6 @@ class Work extends Component {
             <li>CSS/SCSS</li>
             <li>JavaScript</li>
             <li>Responsive Design</li>
-            <li>JSX</li>
             <li>Firebase</li>
             <li>SCRUM</li>
             <li>Agile</li>
@@ -36,6 +45,25 @@ class Work extends Component {
             <li>Authorisation</li>
             <li>Hosting</li>
             <li>React</li>
+            <li>JSX</li>
+          </ul>
+          <p className={styles.workBreak}>......</p>
+          <img src={tugMacbook} alt="macbook" className={styles.tugMacbook} />
+          <img src={tugIphone} alt="iphone" className={styles.tugIphone} />
+          <h1 className={styles.incollabTitle}>Tug of War</h1>
+          <p className={styles.incollabText}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Accusantium excepturi tempore laudantium facere praesentium
+            perferendis. A quam iure unde quae aut, sed veniam saepe! Dolorem
+            sequi qui veniam tempore ex?
+          </p>
+          <ul className={styles.incollabSkills}>
+            <li>HTML</li>
+            <li>CSS/SCSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>GitHub</li>
+            <li>Hosting</li>
           </ul>
           <p className={styles.workBreak}>......</p>
         </div>
