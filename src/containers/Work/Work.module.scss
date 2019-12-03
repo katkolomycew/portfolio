@@ -1,0 +1,113 @@
+.workBackground {
+  overflow: auto;
+  padding: 1rem 2rem 2.75rem 3rem;
+  height: 100%;
+  width: 48%;
+  right: 5%;
+  position: absolute;
+  text-align: justify;
+  z-index: 0;
+}
+
+.workTitle {
+  font-family: "Cutive Mono", monospace;
+  color: rgb(188, 112, 115);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 17rem 0 0 0;
+  text-align: center;
+}
+
+.workText {
+  line-height: 1.75rem;
+  font-size: 1.05rem;
+  margin: 1.05rem;
+}
+
+.workSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 0.85rem;
+  flex-direction: row;
+  text-transform: uppercase;
+
+  li {
+    background-color: rgb(188, 112, 115);
+    color: rgb(233, 225, 225);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+    margin: 0.75rem 0.5rem 0 0;
+  }
+}
+
+.workBreak {
+  color: rgb(13, 11, 12);
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.incollabMacbook {
+  height: 400px;
+  bottom: 42%;
+  right: 22%;
+  position: absolute;
+  z-index: -1;
+}
+
+.incollabIphone {
+  height: 225px;
+  bottom: 57%;
+  right: 5%;
+  position: absolute;
+  z-index: -2;
+}
+
+.tugMacbook {
+  height: 400px;
+  top: 87%;
+  right: 22%;
+  position: absolute;
+  z-index: -1;
+}
+
+.tugIphone {
+  height: 225px;
+  top: 38.5rem;
+  right: 5%;
+  position: absolute;
+  z-index: -2;
+}
+
+.mealMacbook {
+  height: 400px;
+  top: 64.5rem;
+  right: 22%;
+  position: absolute;
+  z-index: -1;
+}
+
+.mealIphone {
+  height: 225px;
+  top: 69.75rem;
+  right: 5%;
+  position: absolute;
+  z-index: -2;
+}
+
+.mineMacbook {
+  height: 400px;
+  top: 96rem;
+  right: 22%;
+  position: absolute;
+  z-index: -1;
+}
+
+.mineIphone {
+  height: 225px;
+  top: 101rem;
+  right: 5%;
+  position: absolute;
+  z-index: -2;
+}
