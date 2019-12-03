@@ -7,9 +7,9 @@ class CV extends Component {
   render() {
     return (
       <section>
-        <p className="test"></p>
         <HeaderImage />
         <MenuBar />
+        <p className={styles.cvTitle}>Download my CV!</p>
       </section>
     );
   }
