@@ -28,12 +28,19 @@ class Work extends Component {
             alt="iphone"
             className={styles.incollabIphone}
           />
-          <h1 className={styles.workTitle}>In Collaboration</h1>
+          <a
+            href="https://incollaboration.nology.io/login"
+            className={styles.workTitle}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className={styles.workTitle}>In Collaboration</h1>{" "}
+          </a>
           <p className={styles.workText}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ad at
-            dolore non porro, nobis beatae doloribus magni error provident. Iure
-            consectetur voluptas consequuntur repudiandae asperiores commodi hic
-            assumenda quas?
+            A mobile-first web application designed to facilitate communication
+            and collaboration between start-ups. The project was completed in
+            four weeks, in a group of nine developers, based around Scrum
+            practices and with a focus on pair programming.
           </p>
           <ul className={styles.workSkills}>
             <li>HTML</li>
@@ -54,12 +61,17 @@ class Work extends Component {
           <p className={styles.workBreak}>......</p>
           <img src={tugMacbook} alt="macbook" className={styles.tugMacbook} />
           <img src={tugIphone} alt="iphone" className={styles.tugIphone} />
-          <h1 className={styles.workTitle}>Tug of War</h1>
+          <a
+            href="https://github.com/katkolomycew/tugofwar"
+            className={styles.workTitle}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className={styles.workTitle}>Tug of War</h1>
+          </a>
           <p className={styles.workText}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Accusantium excepturi tempore laudantium facere praesentium
-            perferendis. A quam iure unde quae aut, sed veniam saepe! Dolorem
-            sequi qui veniam tempore ex?
+            Three-hour challenge to build a functional game with vanilla HTML,
+            CSS, and JavaScript all written in one file.
           </p>
           <ul className={styles.workSkills}>
             <li>HTML</li>
@@ -72,12 +84,18 @@ class Work extends Component {
           <p className={styles.workBreak}>......</p>
           <img src={mealMacbook} alt="macbook" className={styles.mealMacbook} />
           <img src={mealIphone} alt="iphone" className={styles.mealIphone} />
-          <h1 className={styles.workTitle}>Weekly Mealplans</h1>
+          <a
+            href="https://github.com/katkolomycew/weekly-mealplans"
+            className={styles.workTitle}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className={styles.workTitle}>Weekly Mealplans</h1>
+          </a>
           <p className={styles.workText}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            perspiciatis porro expedita quo, ipsam repudiandae sequi explicabo
-            et, possimus eveniet officiis dolore a architecto quae assumenda
-            saepe esse dolorum nulla?
+            A personal project built with a passion for food, and with the
+            intention of simplifying the organisation of meal planning and
+            updating it weekly.
           </p>
           <ul className={styles.workSkills}>
             <li>HTML</li>
@@ -89,12 +107,17 @@ class Work extends Component {
           <p className={styles.workBreak}>......</p>
           <img src={mineMacbook} alt="macbook" className={styles.mineMacbook} />
           <img src={mineIphone} alt="iphone" className={styles.mineIphone} />
-          <h1 className={styles.workTitle}>Minesweeper</h1>
+          <a
+            href="https://github.com/katkolomycew/tech-challenge"
+            className={styles.workTitle}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className={styles.workTitle}>Minesweeper</h1>
+          </a>
           <p className={styles.workText}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-            inventore ratione, ad cum molestias odit magnam placeat dolore
-            dignissimos ullam optio repudiandae commodi aspernatur, dolores
-            sequi aperiam qui velit ut!
+            My favourite challenge — a fully functional game extended in
+            personal time from a brief set to create a minewsweeper board.
           </p>
           <ul className={styles.workSkills}>
             <li>HTML</li>

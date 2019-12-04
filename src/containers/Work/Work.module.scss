@@ -1,6 +1,6 @@
 .workBackground {
   overflow: auto;
-  padding: 1rem 2rem 2.75rem 3rem;
+  padding: 0.5rem 2rem 1rem 3rem;
   height: 100%;
   width: 48%;
   right: 5%;
@@ -14,14 +14,23 @@
   color: rgb(188, 112, 115);
   font-weight: bold;
   font-size: 1.5rem;
-  padding: 17rem 0 0 0;
+  padding: 15.75rem 0 0.25rem 0;
   text-align: center;
+  z-index: 0;
+  text-decoration: none;
+  border-bottom: 2px dotted rgb(188, 112, 115);
+
+  .workTitle:hover {
+    border-bottom: 2px dotted rgba(13, 11, 12, 0.4);
+    color: rgb(13, 11, 12);
+    transition: 0.4s;
+  }
 }
 
 .workText {
   line-height: 1.75rem;
   font-size: 1.05rem;
-  margin: 1.05rem;
+  margin: 0.5rem 1.05rem 0.25rem 1.05rem;
 }
 
 .workSkills {
@@ -50,7 +59,7 @@
 
 .incollabMacbook {
   height: 400px;
-  bottom: 42%;
+  bottom: 17rem;
   right: 22%;
   position: absolute;
   z-index: -1;
@@ -58,7 +67,7 @@
 
 .incollabIphone {
   height: 225px;
-  bottom: 57%;
+  bottom: 22.5rem;
   right: 5%;
   position: absolute;
   z-index: -2;
@@ -66,7 +75,7 @@
 
 .tugMacbook {
   height: 400px;
-  top: 87%;
+  top: 30rem;
   right: 22%;
   position: absolute;
   z-index: -1;
@@ -74,7 +83,7 @@
 
 .tugIphone {
   height: 225px;
-  top: 38.5rem;
+  top: 35.5rem;
   right: 5%;
   position: absolute;
   z-index: -2;
@@ -82,7 +91,7 @@
 
 .mealMacbook {
   height: 400px;
-  top: 64.5rem;
+  top: 57.5rem;
   right: 22%;
   position: absolute;
   z-index: -1;
@@ -90,7 +99,7 @@
 
 .mealIphone {
   height: 225px;
-  top: 69.75rem;
+  top: 63rem;
   right: 5%;
   position: absolute;
   z-index: -2;
@@ -98,7 +107,7 @@
 
 .mineMacbook {
   height: 400px;
-  top: 96rem;
+  top: 85rem;
   right: 22%;
   position: absolute;
   z-index: -1;
@@ -106,7 +115,7 @@
 
 .mineIphone {
   height: 225px;
-  top: 101rem;
+  top: 90.5rem;
   right: 5%;
   position: absolute;
   z-index: -2;
