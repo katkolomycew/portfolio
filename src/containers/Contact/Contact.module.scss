@@ -25,6 +25,10 @@
     border-radius: 0.5rem;
   }
 
+  input:focus {
+    border-bottom: 4px solid rgb(13, 11, 12);
+  }
+
   ::placeholder {
     font-family: "Gupter", serif;
     color: rgb(13, 11, 12);
