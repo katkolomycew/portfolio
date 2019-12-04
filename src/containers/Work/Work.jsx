@@ -127,6 +127,22 @@ class Work extends Component {
             <li>GitHub</li>
             <li>JavaScript</li>
           </ul>
+          <p className={styles.workBreak}>......</p>
+          <blockquote className={styles.workReferences}>
+            <span>“</span>
+            Kat’s attention to detail has been amazing throughout [our] project
+            and the determination she shows even more so. Whether working on
+            function, visual or layout Kat shows the same level of passion and
+            determination in all her work. Kat always has an opinion and a
+            solution on the best ideas for layout and design as well as ways to
+            solve any issues, however Kat has shown a great balance of taking on
+            board client thoughts and sharing her own opinion to the point that
+            I have frequently asked Kat for her opinion before providing one of
+            my own. I have enjoyed working with Kat and would be honoured to
+            work with her in the future. I highly recommend Kat to any employer
+            and believe her to be a fantastic addition to any team.
+            <span>”</span>
+          </blockquote>
         </div>
       </section>
     );
