@@ -33,7 +33,7 @@
 
   p {
     position: absolute;
-    bottom: 24rem;
+    bottom: 23rem;
     right: 0.9rem;
   }
 }
@@ -52,27 +52,8 @@
 
   p {
     position: absolute;
-    bottom: 21.5rem;
+    bottom: 20.5rem;
     right: 0.9rem;
-  }
-}
-
-#blog {
-  text-decoration: none;
-
-  div,
-  p {
-    opacity: 1;
-    transition: 0.6s;
-    text-transform: uppercase;
-    color: rgb(247, 201, 219);
-    font-size: 0.85rem;
-  }
-
-  p {
-    position: absolute;
-    bottom: 19rem;
-    right: 1rem;
   }
 }
 
@@ -90,7 +71,7 @@
 
   p {
     position: absolute;
-    bottom: 16.6rem;
+    bottom: 18rem;
     right: 1.6rem;
   }
 }
@@ -109,7 +90,7 @@
 
   p {
     position: absolute;
-    bottom: 14.25rem;
+    bottom: 15.7rem;
     right: 0.3rem;
   }
 }
@@ -119,13 +100,13 @@
   color: rgb(247, 201, 219);
   font-size: 2rem;
   font-weight: bold;
-  padding: 1rem 0 9rem 0;
+  padding: 1rem 0 10rem 0;
 }
 
 .barSocial {
   font-size: 1.25rem;
   font-weight: bold;
-  padding: 8rem 0 1rem 0;
+  padding: 10rem 0 1rem 0;
   display: flex;
   align-items: center;
   flex-direction: column;
