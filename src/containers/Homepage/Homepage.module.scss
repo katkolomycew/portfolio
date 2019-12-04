@@ -14,8 +14,8 @@
   color: rgb(188, 112, 115);
   font-weight: bold;
   font-size: 1.5rem;
-  padding: 1rem;
   margin: 0 auto;
+  margin-top: 0.5rem;
   overflow: hidden;
   white-space: nowrap;
   border-right: 2px solid rgb(13, 11, 12);
@@ -44,7 +44,6 @@
 .homepageText {
   line-height: 1.75rem;
   font-size: 1.05rem;
-  padding-top: 0.5rem;
   margin: 1.05rem;
 
   p {
@@ -72,7 +71,7 @@
   font-size: 0.85rem;
   flex-direction: row;
   text-transform: uppercase;
-  padding-top: 2rem;
+  padding-top: 1rem;
 
   li {
     background-color: rgb(188, 112, 115);
@@ -105,13 +104,13 @@
   font-size: 0.85rem;
   flex-direction: row;
   text-transform: uppercase;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 
   li {
     background-color: rgb(188, 112, 115);
     color: rgb(233, 225, 225);
     border-radius: 0.5rem;
-    padding: 0.15rem 0.25rem 0.15rem 0.25rem;
+    padding: 0.15rem 0.25rem 0 0.25rem;
     margin: 0.75rem 0.5rem 0 0;
   }
 

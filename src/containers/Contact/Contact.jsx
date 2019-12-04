@@ -38,7 +38,6 @@ class Contact extends Component {
         <HeaderImage />
         <MenuBar />
         <div className={styles.contactBackground}>
-          <h1 className={styles.contactTitle}>Contact</h1>
           <form
             onSubmit={this.submitForm}
             action="https://formspree.io/mwkpqqak"

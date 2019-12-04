@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HeaderImage from "../../components/HeaderImage/HeaderImage";
 import MenuBar from "../../components/MenuBar/MenuBar";
+import resume from "./images/resume.jpg";
 import styles from "./CV.module.scss";
 
 class CV extends Component {
@@ -9,7 +10,15 @@ class CV extends Component {
       <section>
         <HeaderImage />
         <MenuBar />
-        <p className={styles.cvTitle}>Download my CV!</p>
+        <div className={styles.cvBackground}>
+          <img src={resume} alt="resume" className={styles.cvResume} />
+          <form
+            action="https://www.dropbox.com/s/i3rt3knokd5u8wi/KKCV-3-1.jpg?dl=0"
+            target="_blank"
+          >
+            <input type="submit" value="Download my CV" />
+          </form>
+        </div>
       </section>
     );
   }
