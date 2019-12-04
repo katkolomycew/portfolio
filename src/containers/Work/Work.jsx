@@ -7,6 +7,7 @@ import mealMacbook from "./images/mealMacbook.png";
 import mealIphone from "./images/mealIphone.png";
 import mineMacbook from "./images/mineMacbook.png";
 import mineIphone from "./images/mineIphone.png";
+import reference from "./images/reference.jpg";
 import HeaderImage from "../../components/HeaderImage/HeaderImage";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import styles from "./Work.module.scss";
@@ -143,6 +144,21 @@ class Work extends Component {
             and believe her to be a fantastic addition to any team.
             <span>”</span>
           </blockquote>
+          <img
+            src={reference}
+            alt="Samantha Miles"
+            className={styles.workReferee}
+          />
+          <h2 className={styles.workName}>Samantha Miles</h2>
+          <a
+            href="https://www.incollaboration.co.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className={styles.workRefereeTitle}>
+              Co-founder of In Collaboration
+            </p>
+          </a>
         </div>
       </section>
     );

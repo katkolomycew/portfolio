@@ -126,13 +126,49 @@
   color: rgb(233, 225, 225);
   border-radius: 0.5rem;
   font-size: 0.85rem;
-  padding: 1rem;
-  margin: 0.75rem 0 0.75rem 0;
+  padding: 2rem;
+  margin: 1rem 0 0.75rem 0;
   line-height: 1.75rem;
   text-align: justify;
 
   span {
     font-size: 2rem;
     font-weight: bold;
+    vertical-align: middle;
   }
+}
+
+.workReferee {
+  height: 100px;
+  right: 40%;
+  margin: 0.5rem 0 0 0;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.workName {
+  right: 31%;
+  margin: 7.25rem 0 1rem 0;
+  position: absolute;
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.5rem;
+  color: rgb(13, 11, 12);
+}
+
+.workRefereeTitle {
+  right: 35%;
+  margin: 8.75rem 0 1.75rem 0;
+  position: absolute;
+  font-size: 0.85rem;
+  color: rgb(13, 11, 12);
+  border-bottom: 2px dotted rgba(188, 112, 115, 0.4);
+  color: rgb(188, 112, 115);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.workRefereeTitle:hover {
+  border-bottom: 2px dotted rgba(13, 11, 12, 0.4);
+  color: rgb(13, 11, 12);
+  transition: 0.4s;
 }
