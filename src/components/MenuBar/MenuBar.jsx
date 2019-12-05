@@ -41,7 +41,6 @@ class MenuBar extends Component {
   };
 
   render() {
-    const activeStyle = { color: "red" };
     return (
       <section className={styles.barBackground}>
         <p className={styles.barLogo}>KK</p>
