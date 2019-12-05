@@ -131,7 +131,7 @@ a {
 
 // -------------------> MEDIA QUERIES
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .barLogo {
     padding: 1rem 0 23rem 0;
   }

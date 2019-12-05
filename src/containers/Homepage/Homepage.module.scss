@@ -127,7 +127,7 @@
 
 // -------------------> MEDIA QUERIES
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .technicalSkills {
     justify-content: space-between;
   }
