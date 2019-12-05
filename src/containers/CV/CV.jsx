@@ -13,7 +13,7 @@ class CV extends Component {
         <div className={styles.cvBackground}>
           <img src={resume} alt="resume" className={styles.cvResume} />
           <form
-            action="https://www.dropbox.com/s/i3rt3knokd5u8wi/KKCV-3-1.jpg?dl=0"
+            action="https://www.dropbox.com/s/wlk1eednzad05a8/KKCV-4.pdf?dl=0"
             target="_blank"
           >
             <input type="submit" value="Download my CV" />
