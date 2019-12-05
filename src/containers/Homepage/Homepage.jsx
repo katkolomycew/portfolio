@@ -90,7 +90,7 @@ class Homepage extends Component {
               <li>DIY models</li>
               <li>Travel</li>
               <li>Emotional intelligence</li>
-              <li>Baking (awesome brownie recipe)</li>
+              <li>Baking (great brownie recipe)</li>
               <li>80s Music</li>
               <li>Long hikes</li>
               <li>Horseriding</li>
