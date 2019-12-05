@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import HeaderImage from "../../components/HeaderImage/HeaderImage";
 import MenuBar from "../../components/MenuBar/MenuBar";
-import "./HomepageResponsive.module.scss";
 import styles from "./Homepage.module.scss";
 
 class Homepage extends Component {
