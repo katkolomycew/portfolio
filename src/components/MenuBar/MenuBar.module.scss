@@ -159,62 +159,62 @@ a {
   a {
     color: inherit;
   }
-}
 
-#home {
-  opacity: 0;
+  #home {
+    opacity: 0;
 
-  div,
-  p {
-    transition: 1s;
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      transition: none;
+      bottom: 49.5rem;
+      right: 0.5rem;
+    }
   }
 
-  p {
-    transition: none;
-    bottom: 49.5rem;
-    right: 0.5rem;
-  }
-}
+  #work {
+    opacity: 0;
 
-#work {
-  opacity: 0;
+    div,
+    p {
+      transition: 1s;
+    }
 
-  div,
-  p {
-    transition: 1s;
-  }
-
-  p {
-    bottom: 47rem;
-    right: 0.5rem;
-  }
-}
-
-#cv {
-  opacity: 0;
-
-  div,
-  p {
-    transition: 1s;
+    p {
+      bottom: 47rem;
+      right: 0.5rem;
+    }
   }
 
-  p {
-    bottom: 44.5rem;
-    right: 1.25rem;
+  #cv {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 44.5rem;
+      right: 1.25rem;
+    }
   }
-}
 
-#contact {
-  opacity: 0;
+  #contact {
+    opacity: 0;
 
-  div,
-  p {
-    transition: 1s;
-  }
+    div,
+    p {
+      transition: 1s;
+    }
 
-  p {
-    bottom: 42rem;
-    right: 0.12rem;
-    font-size: 0.75rem;
+    p {
+      bottom: 42rem;
+      right: 0.12rem;
+      font-size: 0.75rem;
+    }
   }
 }
