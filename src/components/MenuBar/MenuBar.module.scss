@@ -138,5 +138,73 @@ a {
 
   .barSocial {
     padding: 36.25rem 0 1rem 0;
+
+    .linkedinIcon:hover,
+    .githubIcon:hover {
+      color: rgb(247, 201, 219);
+      transition: 1s;
+    }
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+#home {
+  opacity: 0;
+
+  div,
+  p {
+    transition: 1s;
+  }
+
+  p {
+    transition: none;
+    bottom: 49.5rem;
+    right: 0.5rem;
+  }
+}
+
+#work {
+  opacity: 0;
+
+  div,
+  p {
+    transition: 1s;
+  }
+
+  p {
+    bottom: 47rem;
+    right: 0.5rem;
+  }
+}
+
+#cv {
+  opacity: 0;
+
+  div,
+  p {
+    transition: 1s;
+  }
+
+  p {
+    bottom: 44.5rem;
+    right: 1.25rem;
+  }
+}
+
+#contact {
+  opacity: 0;
+
+  div,
+  p {
+    transition: 1s;
+  }
+
+  p {
+    bottom: 42rem;
+    right: 0.12rem;
+    font-size: 0.75rem;
   }
 }
