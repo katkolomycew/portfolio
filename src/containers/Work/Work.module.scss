@@ -175,6 +175,48 @@
 
 // --------------------> MEDIA QUERIES
 
+@media only screen and (max-width: 1366px) {
+  .incollabMacbook {
+    bottom: 43rem;
+    right: 22%;
+  }
+
+  .incollabIphone {
+    bottom: 48.5rem;
+    left: 56%;
+  }
+
+  .tugMacbook {
+    top: 29.75rem;
+    right: 22%;
+  }
+
+  .tugIphone {
+    top: 35.25rem;
+    left: 56%;
+  }
+
+  .mealMacbook {
+    top: 57.25rem;
+    right: 22%;
+  }
+
+  .mealIphone {
+    top: 62.75rem;
+    left: 56%;
+  }
+
+  .mineMacbook {
+    top: 85rem;
+    right: 22%;
+  }
+
+  .mineIphone {
+    top: 90.5rem;
+    left: 56%;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .incollabMacbook {
     bottom: 64.5rem;
