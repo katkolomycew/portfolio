@@ -43,6 +43,23 @@
 
 // --------------------> MEDIA QUERIES
 
+@media only screen and (max-width: 1366px) {
+  .cvBackground {
+    .cvResume {
+      height: 700px;
+      top: 1.5rem;
+      right: 7.2%;
+    }
+
+    input {
+      margin-top: 45.5rem;
+      margin-left: 1rem;
+      width: 95%;
+      cursor: none;
+    }
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .cvBackground {
     .cvResume {
