@@ -45,3 +45,14 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .backgroundImage {
+    height: 60%;
+    right: 0;
+  }
+
+  .backgroundResponsive {
+    display: none;
+  }
+}

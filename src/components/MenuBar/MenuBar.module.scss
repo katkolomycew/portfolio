@@ -429,3 +429,40 @@ a {
     }
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .barBackground {
+    top: 60%;
+    height: 5%;
+    width: 100%;
+  }
+
+  .barLogo {
+    font-size: 2rem;
+    padding: 0.1rem 0.25rem 0.25rem 0.25rem;
+    float: left;
+  }
+
+  .homeIcon,
+  #home,
+  .workIcon,
+  #work,
+  .cvContact,
+  #cv,
+  .contactIcon,
+  #contact {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .homeIcon,
+  #home {
+    margin-right: 1px;
+  }
+
+  .barSocial {
+    font-size: 1.25rem;
+    // padding: 10rem 0 1rem 0;
+  }
+}
