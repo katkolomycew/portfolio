@@ -170,3 +170,35 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .contactForm {
+    margin: 0.8rem 0 0 0;
+
+    input {
+      margin: 0 1rem 0.5rem 1rem;
+    }
+
+    .formName {
+      width: 43%;
+    }
+
+    .formEmail {
+      width: 43%;
+    }
+
+    .formSubject {
+      width: 89%;
+    }
+
+    .formMessage {
+      width: 89%;
+      margin: 0 0 0 1rem;
+    }
+
+    button {
+      padding: 0.5rem 4rem 0.5rem 4em;
+      margin: 0.25rem 1rem 2rem 0;
+    }
+  }
+}
