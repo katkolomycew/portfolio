@@ -195,3 +195,33 @@
     }
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .homepageBackground {
+    padding: 1rem 2rem 1rem 3rem;
+    height: 40%;
+    top: 60%;
+    width: 100%;
+    right: 6.75%;
+  }
+
+  .technicalSkills {
+    justify-content: space-between;
+
+    p {
+      padding: 0.5rem 0 0 8rem;
+    }
+  }
+
+  .homepageBreak {
+    bottom: 1rem;
+  }
+
+  .personalSkills {
+    justify-content: space-between;
+
+    p {
+      padding: 0.5rem 0 0 0;
+    }
+  }
+}

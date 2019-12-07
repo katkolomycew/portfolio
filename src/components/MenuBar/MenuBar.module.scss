@@ -432,37 +432,76 @@ a {
 
 @media only screen and (max-width: 414px) {
   .barBackground {
+    height: 100%;
     top: 60%;
-    height: 5%;
-    width: 100%;
+    width: 10%;
+    right: 0;
   }
 
   .barLogo {
-    font-size: 2rem;
-    padding: 0.1rem 0.25rem 0.25rem 0.25rem;
-    float: left;
+    font-size: 1.75rem;
+    padding: 0.25rem 0 2rem 0;
   }
 
-  .homeIcon,
-  #home,
-  .workIcon,
-  #work,
-  .cvContact,
-  #cv,
-  .contactIcon,
-  #contact {
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  .homeIcon,
   #home {
-    margin-right: 1px;
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 40rem;
+      right: 0.1rem;
+    }
+  }
+
+  #work {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 38rem;
+      right: 0.1rem;
+    }
+  }
+
+  #cv {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 35.5rem;
+      right: 0.75rem;
+    }
+  }
+
+  #contact {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 33.5rem;
+      right: 0.2rem;
+      font-size: 0.5rem;
+    }
   }
 
   .barSocial {
-    font-size: 1.25rem;
-    // padding: 10rem 0 1rem 0;
+    font-size: 1rem;
+    padding: 1.75rem 0 0 0;
   }
 }
