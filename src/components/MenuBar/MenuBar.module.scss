@@ -138,10 +138,77 @@ a {
 
   .barSocial {
     padding: 23rem 0 1rem 0;
+
+    .linkedinIcon:hover,
+    .githubIcon:hover {
+      color: rgb(247, 201, 219);
+      transition: 1s;
+    }
+  }
+
+  a {
+    color: inherit;
+  }
+
+  #home {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      transition: none;
+      bottom: 36rem;
+      right: 1rem;
+    }
+  }
+
+  #work {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 33.5rem;
+      right: 1rem;
+    }
+  }
+
+  #cv {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 31rem;
+      right: 1.6rem;
+    }
+  }
+
+  #contact {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 28.5rem;
+      right: 0.4rem;
+    }
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (max-height: 1366px) {
   .barLogo {
     padding: 1rem 0 31rem 0;
   }
@@ -213,6 +280,73 @@ a {
 
     p {
       bottom: 42rem;
+      right: 0.12rem;
+      font-size: 0.75rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 768px) {
+  .barLogo {
+    padding: 1rem 0 15rem 0;
+  }
+
+  .barSocial {
+    padding: 15rem 0 1rem 0;
+  }
+
+  #home {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 28rem;
+      right: 0.5rem;
+    }
+  }
+
+  #work {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 25.5rem;
+      right: 0.5rem;
+    }
+  }
+
+  #cv {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 23rem;
+      right: 1.15rem;
+    }
+  }
+
+  #contact {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 20.5rem;
       right: 0.12rem;
       font-size: 0.75rem;
     }

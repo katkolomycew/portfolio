@@ -21,7 +21,7 @@
 
 // -------------------> MEDIA QUERIES
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (max-height: 1366px) {
   .backgroundImage {
     display: none;
   }
@@ -33,5 +33,15 @@
     position: fixed;
     z-index: 2;
     animation: fadein 4s;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 768px) {
+  .backgroundImage {
+    display: unset;
+  }
+
+  .backgroundResponsive {
+    display: none;
   }
 }

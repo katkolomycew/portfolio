@@ -217,7 +217,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (max-height: 1366px) {
   .incollabMacbook {
     bottom: 64.5rem;
     right: 14%;
@@ -264,5 +264,17 @@
 
   .workSkills {
     justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 768px) {
+  .incollabMacbook {
+    bottom: 27.25rem;
+    right: 14%;
+  }
+
+  .incollabIphone {
+    bottom: 32.75rem;
+    left: 57%;
   }
 }
