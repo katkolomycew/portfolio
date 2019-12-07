@@ -115,12 +115,83 @@
     margin: 0.75rem 0.5rem 0 0;
   }
 
-  .personalTitle {
+  p {
     text-transform: lowercase;
     font-style: italic;
     font-size: 1rem;
     color: rgba(13, 11, 12, 0.5);
     font-weight: bold;
     padding-right: 0.1rem;
+  }
+}
+
+// -------------------> MEDIA QUERIES
+
+@media only screen and (min-width: 1366px) {
+  .technicalSkills {
+    justify-content: space-between;
+  }
+
+  .personalSkills {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 1366px) {
+  .technicalSkills {
+    justify-content: space-between;
+
+    li {
+      padding: 0.15rem 0.25rem 0 0.25rem;
+      margin: 0.5rem 0.25rem 0 0;
+    }
+
+    p {
+      padding: 0.5rem 0 0 12.5rem;
+    }
+  }
+
+  .homepageBreak {
+    bottom: 1.25rem;
+  }
+
+  .personalSkills {
+    justify-content: space-between;
+
+    li {
+      padding: 0.15rem 0.25rem 0 0.25rem;
+      margin: 0.5rem 0 0 0;
+    }
+
+    p {
+      padding: 0.5rem 0 0 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .homepageHeading {
+    font-size: 1.25rem;
+  }
+
+  .homepageText {
+    margin: 0.5rem;
+  }
+
+  .technicalSkills {
+    p {
+      padding: 0.5rem 0 0 3rem;
+    }
+  }
+
+  .homepageBreak {
+    bottom: 0.75rem;
+  }
+
+  .personalSkills {
+    p {
+      padding: 0.5rem 3rem 0 0;
+      margin-left: 3rem;
+    }
   }
 }

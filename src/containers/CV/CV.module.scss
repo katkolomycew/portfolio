@@ -40,3 +40,57 @@
     color: rgb(247, 201, 219);
   }
 }
+
+// --------------------> MEDIA QUERIES
+
+@media only screen and (min-width: 1366px) {
+  .cvBackground {
+    .cvResume {
+      height: 700px;
+      top: 1.5rem;
+      right: 7.2%;
+    }
+
+    input {
+      margin-top: 45.5rem;
+      margin-left: 1rem;
+      width: 95%;
+      cursor: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 1366px) {
+  .cvBackground {
+    .cvResume {
+      height: 525px;
+      right: 7.4%;
+    }
+
+    input {
+      padding: 0.6rem 3rem 0.6rem 3em;
+      margin-top: 34.1rem;
+      margin-left: 0;
+      width: 99%;
+      cursor: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cvBackground {
+    .cvResume {
+      height: 425px;
+      right: 4%;
+      margin-top: 0;
+    }
+
+    input {
+      padding: 0.6rem 1rem 0.6rem 1rem;
+      margin-top: 27rem;
+      right: 1rem;
+      position: absolute;
+      width: 90%;
+    }
+  }
+}
