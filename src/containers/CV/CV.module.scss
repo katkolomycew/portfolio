@@ -94,3 +94,26 @@
     }
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .cvBackground {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+
+    .cvResume {
+      height: 425px;
+      right: 9%;
+      top: 60%;
+      margin-top: 1rem;
+    }
+
+    input {
+      padding: 0.6rem 1rem 0.6rem 1rem;
+      margin-top: 54.5rem;
+      margin-bottom: 1rem;
+      right: 2.25rem;
+      width: 80%;
+    }
+  }
+}
