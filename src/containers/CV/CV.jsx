@@ -7,7 +7,7 @@ import styles from "./CV.module.scss";
 class CV extends Component {
   render() {
     return (
-      <section className={styles.cvScroll}>
+      <section>
         <HeaderImage />
         <MenuBar />
         <div className={styles.cvBackground}>

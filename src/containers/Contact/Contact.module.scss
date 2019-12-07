@@ -202,3 +202,21 @@
     }
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .contactBackground {
+    height: 39.5%;
+    top: 60%;
+    width: 100%;
+    right: 7%;
+  }
+
+  .contactForm {
+    margin: 0.4rem 0 0 0;
+
+    button {
+      padding: 0.5rem 4rem 0.5rem 4em;
+      margin: 0.25rem 1.25rem 2rem 0;
+    }
+  }
+}
