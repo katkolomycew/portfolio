@@ -168,3 +168,30 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .homepageHeading {
+    font-size: 1.25rem;
+  }
+
+  .homepageText {
+    margin: 0.5rem;
+  }
+
+  .technicalSkills {
+    p {
+      padding: 0.5rem 0 0 3rem;
+    }
+  }
+
+  .homepageBreak {
+    bottom: 0.75rem;
+  }
+
+  .personalSkills {
+    p {
+      padding: 0.5rem 3rem 0 0;
+      margin-left: 3rem;
+    }
+  }
+}

@@ -9,7 +9,6 @@
 
   .homeIcon,
   .workIcon,
-  .blogIcon,
   .cvIcon,
   .contactIcon {
     color: rgb(13, 11, 12);
@@ -349,6 +348,84 @@ a {
       bottom: 20.5rem;
       right: 0.12rem;
       font-size: 0.75rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .barBackground {
+    .homeIcon,
+    .workIcon,
+    .cvIcon,
+    .contactIcon {
+      font-size: 1.25rem;
+    }
+  }
+
+  .barLogo {
+    padding: 1rem 0 24rem 0;
+    font-size: 1.5rem;
+  }
+
+  .barSocial {
+    padding: 24rem 0 1rem 0;
+    font-size: 1rem;
+  }
+
+  #home {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 36rem;
+      right: 0.1rem;
+    }
+  }
+
+  #work {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 33.5rem;
+      right: 0.1rem;
+    }
+  }
+
+  #cv {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 31rem;
+      right: 0.75rem;
+    }
+  }
+
+  #contact {
+    opacity: 0;
+
+    div,
+    p {
+      transition: 1s;
+    }
+
+    p {
+      bottom: 29rem;
+      right: 0.2rem;
+      font-size: 0.5rem;
     }
   }
 }
