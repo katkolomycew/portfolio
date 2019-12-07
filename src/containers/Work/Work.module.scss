@@ -278,3 +278,80 @@
     left: 57%;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .workTitle {
+    padding: 13.75rem 0 0.25rem 0;
+  }
+
+  .workText {
+    margin: 0.5rem 0.5rem 0.25rem 0.5rem;
+  }
+
+  .incollabMacbook {
+    height: 325px;
+    bottom: 46.5rem;
+    right: 9%;
+  }
+
+  .incollabIphone {
+    height: 175px;
+    bottom: 51.25rem;
+    left: 59%;
+  }
+
+  .tugMacbook {
+    height: 325px;
+    top: 39.62rem;
+    right: 9%;
+  }
+
+  .tugIphone {
+    height: 175px;
+    top: 44.25rem;
+    left: 59%;
+  }
+
+  .mealMacbook {
+    height: 325px;
+    top: 69.62rem;
+    right: 9%;
+  }
+
+  .mealIphone {
+    height: 175px;
+    top: 74.25rem;
+    left: 59%;
+  }
+
+  .mineMacbook {
+    height: 325px;
+    top: 101.62rem;
+    right: 9%;
+  }
+
+  .mineIphone {
+    height: 175px;
+    top: 106.25rem;
+    left: 59%;
+  }
+
+  .workSkills {
+    justify-content: space-between;
+  }
+
+  .workReferee {
+    right: 34%;
+    margin: 0.5rem 0 0 0;
+  }
+
+  .workName {
+    right: 20%;
+    margin: 7.25rem 0 1rem 0;
+  }
+
+  .workRefereeTitle {
+    right: 26%;
+    margin: 8.75rem 0 1.25rem 0;
+  }
+}
