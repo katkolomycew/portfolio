@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import kkBackground from "./images/kkBackground.jpg";
 import kkResponsive from "./images/kkResponsive.jpg";
+import kkMobile from "./images/kkMobile.JPEG";
 import styles from "./HeaderImage.module.scss";
 
 class HeaderImage extends Component {
@@ -17,6 +18,7 @@ class HeaderImage extends Component {
           alt="responsive"
           className={styles.backgroundResponsive}
         />
+        <img src={kkMobile} alt="mobile" className={styles.backgroundMobile} />
       </>
     );
   }
