@@ -18,7 +18,7 @@
     text-decoration: none;
   }
 
-  input {
+  button {
     background-color: rgb(247, 201, 219);
     color: rgb(13, 11, 12);
     border: none;
@@ -35,7 +35,7 @@
     transition: 0.4s;
   }
 
-  input:hover {
+  button:hover {
     background-color: rgb(13, 11, 12);
     color: rgb(247, 201, 219);
   }
@@ -51,7 +51,7 @@
       right: 7.2%;
     }
 
-    input {
+    button {
       margin-top: 45.5rem;
       margin-left: 1rem;
       width: 95%;
@@ -67,7 +67,7 @@
       right: 7.4%;
     }
 
-    input {
+    button {
       padding: 0.6rem 3rem 0.6rem 3em;
       margin-top: 34.1rem;
       margin-left: 0;
@@ -85,7 +85,7 @@
       margin-top: 0;
     }
 
-    input {
+    button {
       padding: 0.6rem 1rem 0.6rem 1rem;
       margin-top: 27rem;
       right: 1rem;
@@ -108,12 +108,12 @@
       margin-top: 1rem;
     }
 
-    input {
+    button {
       padding: 0.6rem 1rem 0.6rem 1rem;
-      margin-top: 54.5rem;
+      margin-top: 48.25rem;
       margin-bottom: 1rem;
       right: 2.25rem;
-      width: 80%;
+      width: 75.5%;
     }
   }
 }
