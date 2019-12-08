@@ -358,8 +358,9 @@
 
 @media only screen and (max-width: 414px) {
   .workBackground {
-    height: 40%;
-    top: 60%;
+    overflow-x: hidden;
+    height: 58%;
+    top: 42%;
     width: 100%;
     right: 7.5%;
   }
@@ -374,13 +375,13 @@
 
   .incollabMacbook {
     height: 325px;
-    bottom: 0.75rem;
+    bottom: 9rem;
     right: 13%;
   }
 
   .incollabIphone {
     height: 175px;
-    bottom: 5.5rem;
+    bottom: 14rem;
     left: 60%;
   }
 
@@ -421,7 +422,7 @@
   }
 
   .workSkills {
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .workReferee {
