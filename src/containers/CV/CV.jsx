@@ -16,7 +16,7 @@ class CV extends Component {
             action="https://www.dropbox.com/s/wlk1eednzad05a8/KKCV-4.pdf?dl=0"
             target="_blank"
           >
-            <button>Download my CV</button>
+            <button>Download my CV</button>>
           </form>
         </div>
       </section>

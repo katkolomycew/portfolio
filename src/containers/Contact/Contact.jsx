@@ -77,7 +77,7 @@ class Contact extends Component {
             ) : (
               <button>Send</button>
             )}
-            {status === "ERROR" && <button>Ooops! There was an error.</button>}
+            {status === "ERROR" && <button>Oops! There was an error</button>}
           </form>
         </div>
       </section>
